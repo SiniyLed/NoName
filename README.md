@@ -1,5 +1,5 @@
 # NoName
-some links I want\n
+some links I want
 https://github.com/LiLittleCat/awesome-free-chatgpt/blob/main/README_en.md
 
 OSWAP JUICE
@@ -41,7 +41,7 @@ CHEETER
 SCANNING
 https://nmap.org/man/ru/index.html
 
----------------------------------------------------------------------------------------------------------------------
+=========================================================================================================================
 ┌──(user㉿kali)-[~]
 └─$ sudo nmap -sU -pU:123 -Pn -n --script=ntp-monlist 10.129.173.157
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
@@ -68,11 +68,11 @@ PORT    STATE SERVICE
 |   Other Associations (1)
 |_      127.0.0.1 seen 1853555 times. last tx was unicast v2 mode 7
 Nmap done: 1 IP address (1 host up) scanned in 6.64 seconds
-----------------------------------------------------------------------------------------------------------------------
+=========================================================================================================================
 
 https://github.com/Samsar4/Ethical-Hacking-Labs/blob/master/3-Enumeration/3-Enum4linux-Win-and-Samba-Enumeration.md
 
-----------------------------------------------------------------------------------------------------------------------
+=========================================================================================================================
 sudo enum4linux 10.129.173.157    
 
 Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jul 10 01:39:58 2021
@@ -140,10 +140,10 @@ index: 0xff4 RID: 0x1f6 acb: 0x00020011 Account: krbtgt  Name: (null)  Desc: Key
 index: 0x2360 RID: 0x47a acb: 0x00000210 Account: lucinda  Name: Lucinda Berger  Desc: (null)
 index: 0x236a RID: 0x47f acb: 0x00000210 Account: mark  Name: Mark Brandt  Desc: (null)
 index: 0x236b RID: 0x480 acb: 0x00000210 Account: santi  Name: Santi Rodriguez  Desc: (null)
-----------------------------------------------------------------------------------------------------------------------
+=========================================================================================================================
 
 DOCKER
-----------------------------------------------------------------------------------------------------------------------
+=========================================================================================================================
 $ docker pull cr.yandex/mirror/alpine
 Using default tag: latest
 latest: Pulling from mirror/alpine
@@ -151,7 +151,7 @@ latest: Pulling from mirror/alpine
 Digest: sha256:e7d88de73db3d3fd9b2d63aa7f447a10fd0220b7cbf39803c803f2af9ba256b3
 Status: Downloaded newer image for cr.yandex/mirror/alpine:latest
 cr.yandex/mirror/alpine:latest
-----------------------------------------------------------------------------------------------------------------------
+=========================================================================================================================
 https://huecker.io/
 
 
