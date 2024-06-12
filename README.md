@@ -43,11 +43,12 @@ https://nmap.org/man/ru/index.html
 
 ----
 └─$ sudo nmap -sU -pU:123 -Pn -n --script=ntp-monlist 10.129.173.157
+----
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-07-10 01:49 +03
 Nmap scan report for 10.129.173.157
 Host is up (0.22s latency).
-----
+
 https://github.com/Samsar4/Ethical-Hacking-Labs/blob/master/3-Enumeration/3-Enum4linux-Win-and-Samba-Enumeration.md
 
 -------
