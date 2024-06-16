@@ -36,6 +36,7 @@
 * https://www.wireguard.com/
 
 ### CHEETER
+https://pofoto.club/7751-malenkie-pingviny-44-foto.html
 
 
 ### SCANNING
@@ -66,5 +67,8 @@ Status: Downloaded newer image for cr.yandex/mirror/alpine:latest
 cr.yandex/mirror/alpine:latest
 ```
 * https://huecker.io/
+
+## Pengvins
+https://github.com/getflow/CTF/tree/main/AtomSkills2023
 
 
