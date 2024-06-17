@@ -259,3 +259,4 @@ $ hashcat -a 0 -m 3200 hash /wordlists/rockyou.txt
 
 
 
+
