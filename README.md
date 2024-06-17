@@ -72,3 +72,104 @@ cr.yandex/mirror/alpine:latest
 https://github.com/getflow/CTF/tree/main/AtomSkills2023
 
 
+# PEnTEst
+🖥 Большой выбор бесплатных машин
+* https://tryhackme.com/
+
+🔎 Nmap под разные ОС
+* https://nmap.org/download.html
+
+🗂 Перебор директорий - dirsearch
+* https://github.com/maurosoria/dirsearch
+
+☠️ Reverse Shell Generator
+* https://www.revshells.com/
+
+🔑 GTFOBins
+* https://gtfobins.github.io/
+
+🔐 Взлом хешей онлайн
+* https://crackstation.net/
+
+🔼 Апгрейд шела
+** export TERM=screen
+⌨️ Апгрейд шелла
+** $ python3 -c 'import pty;pty.spawn("/bin/bash")'
+export TERM=screen
+
+⌨️ Rustscan
+```
+$ rustscan -a ip_address
+```
+⌨️ Nmap
+```
+$ nmap -sC -sV ip_address
+```
+⌨️ Dirsearch
+```
+$ dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u 'http://site.com'
+```
+⌨️ Gobuster
+```
+$ gobuster dir -w path_to_dict --url http://site.com -t 50
+```
+
+!! https://github.com/YaS5in3/Bug-Bounty-Wordlists !!
+
+* Практика по хакингу ⚡️
+☠️ Пентест и этичный хакинг для новичков
+
+💣 Ломаем веб-сайт
+
+🌵 SQL инъекция
+🌵 Хакерский софт
+🌵 Взлом хешей паролей
+🌵 Мисконфиги и rsa ключи на сервере
+🌵 Повышение привилегий в системе
+
+Если интересна тема пентеста и хакинга на практике, поддержите видео лайком и комментарием на YouTube. Спасибо за поддержку! 💪
+
+https://youtu.be/r4lvGDAm7jw
+
+Большой выбор бесплатных машин
+https://tryhackme.com/
+https://hackthebox.com
+
+🖥 Машина из видео
+https://tryhackme.com/room/overpass
+
+🔎 Nmap под разные ОС
+https://nmap.org/download.html
+
+🗂 Перебор директорий - dirsearch
+https://github.com/maurosoria/dirsearch
+
+😎 Команды из видео:
+
+⌨️ Rustscan
+```
+$ rustscan -a ip_address
+```
+⌨️ Nmap
+```
+$ nmap -sC -sV ip_address
+$ nmap -sC -sV -p22,80 ip_address
+```
+⌨️ Dirsearch
+```
+$ dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u 'http://site.com'
+```
+⌨️ John
+```
+$ ssh2john id_rsa > id_rsa.hash
+$ john id_rsa.hash --wordlist=/usr/share/wordlists/rockyou.txt
+```
+⌨️ id_rsa SSH connect
+```
+$ ssh -i id_rsa user@ip_address
+```
+
+
+
+
+
