@@ -1,0 +1,17 @@
+$ ipa pwpolicy-add global_admins --maxlife=90 --minlife=1 --history=10 --minclasses=0 --minlength=14 --maxfail=6 --failinterval=60 --lockouttime=600 --priority=1
+Добавить политику паролей глобальных адинов
+
+$ ipa pwpolicy-add ipausers --maxlife=180 --minlife=1 --history=3 --minclasses=0 --minlength=8 --maxfail=6 --failinterval=60 --lockouttime=600 --priority=10
+Добавить политику паролей пользователей
+
+Создать новую группу пользователей
+$ ipa group-add g_test --desc="Test users"
+$ ipa group-add global_admins --desc="Global admins"
+
+#!/bin/sh
+
+for user in {50..101};
+do
+    ipa user-add a.smith --first="user${user}" --last=Smith --homedir=/home/lvas --password="P@ssw0rd";
+    ipa group-add-member group --users=user{user}
+done;
