@@ -130,22 +130,11 @@ $ gobuster dir -w path_to_dict --url http://site.com -t 50
 🌵 Мисконфиги и rsa ключи на сервере
 🌵 Повышение привилегий в системе
 
-Если интересна тема пентеста и хакинга на практике, поддержите видео лайком и комментарием на YouTube. Спасибо за поддержку! 💪
-
-https://youtu.be/r4lvGDAm7jw
 
 Большой выбор бесплатных машин
 https://tryhackme.com/
 https://hackthebox.com
 
-🖥 Машина из видео
-https://tryhackme.com/room/overpass
-
-🔎 Nmap под разные ОС
-https://nmap.org/download.html
-
-🗂 Перебор директорий - dirsearch
-https://github.com/maurosoria/dirsearch
 
 😎 Команды из видео:
 
@@ -173,18 +162,6 @@ $ ssh -i id_rsa user@ip_address
 ```
 
 Софт и команды из видео
-
-🖥 Большой выбор бесплатных машин
-https://tryhackme.com/
-
-🖥 Машина из видео
-https://tryhackme.com/room/internal
-
-🔎 Nmap под разные ОС
-https://nmap.org/download.html
-
-🗂 Перебор директорий - dirsearch
-https://github.com/maurosoria/dirsearch
 
 ☠️ pwncat
 https://github.com/calebstewart/pwncat
