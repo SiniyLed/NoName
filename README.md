@@ -22,6 +22,9 @@
 * https://positive-technologies.notion.site/2024-1-PT-START-Basic-1-7f1896c562d44da9bfa19f8a48deb6e2
 * https://www.notion.so/Linux_Basic-_-_-PT-START-2024-1-3044091292244096838c86476d0eb7ec (my)
 
+* https://alinka-pt.yonote.ru/doc/itogovoe-zadanie-aTOy2HseaV
+* https://positive-technologies.yonote.ru/share/d4322269-ee09-418b-a9ab-75e3a6bccbba/doc/20242-pt-start-basic-1-j-etap-gAsW1Ig5tC
+
 ### OSPF/RIP
 * https://irinashpakk.gitbook.io/ospf
 * https://sadykov.notion.site/7-OSI-L3-RIP-OSPF-ba1f93d1f9b64ef3a1298e5ad55ad539
