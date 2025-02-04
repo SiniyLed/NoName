@@ -15,3 +15,7 @@ do
     ipa user-add a.smith --first="user${user}" --last=Smith --homedir=/home/lvas --password="P@ssw0rd";
     ipa group-add-member group --users=user{user}
 done;
+
+
+
+For num in {1..40}; do yes PasswordTop | команда на Гите по добавлению но убрать там после --password =и дальше; done;
