@@ -19,3 +19,7 @@ done;
 
 
 For num in {1..40}; do yes PasswordTop | команда на Гите по добавлению но убрать там после --password =и дальше; done;
+
+
+
+Работаем с FreeIPA из командной строки | IT Draft https://search.app/fjBuRsuJKL7W28qV7
