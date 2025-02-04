@@ -1,0 +1,11 @@
+table inet nat {
+  chain postrouting {
+    type nat hook postrouting priority -100;
+    oifname "имя_интерфейса" masquerade
+  }
+  chain prerouting {
+    type nat hook postrouting priority -100;
+    policy accept;
+  }
+}
+    
