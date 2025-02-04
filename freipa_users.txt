@@ -22,4 +22,5 @@ For num in {1..40}; do yes PasswordTop | команда на Гите по до�
 
 
 
-Работаем с FreeIPA из командной строки | IT Draft https://search.app/fjBuRsuJKL7W28qV7
+Работаем с FreeIPA из командной строки | IT Draft 
+https://itdraft.ru/2023/02/17/rabotaem-s-freeipa-iz-komandnoj-stroki/
