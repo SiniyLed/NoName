@@ -1,6 +1,7 @@
 # NoName
 ## some links I want
 * https://github.com/LiLittleCat/awesome-free-chatgpt/blob/main/README_en.md
+* https://habr.com/ru/companies/otus/articles/707184/ <- полезно знать
 
 ### OSWAP JUICE
 * https://owasp.org/www-project-juice-shop/
