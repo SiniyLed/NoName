@@ -1,0 +1,16 @@
+1. сделать копию /.bash_history
+2. искать dpkg
+3. dpkg -l
+4. systemctl status и смотреть сервисы
+5. crontab
+6. в systemd посмотреть таймеры (гугл в помощь)
+7. если есть имя файла, то dpkg -L имя
+8. jouralctl смотреть события с файлами shadow, password, команда passwd и кто вызывал (посмотреть по пользователям)
+9. команда last покажет последние сессии
+10. сс 
+netstat -p
+ss -p
+11. /etc/apt/source.list
+/etc/apt/sourselist.d
+найти странный сервер, если есть, то оставить только его, закомментить нормальные и прописать apt update
+оставит в Packages.gz
