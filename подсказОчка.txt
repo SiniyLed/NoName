@@ -42,8 +42,7 @@ nc -nvlp <port>
 ffuf -u <url> -H <"Host: FUZZ.www и т.д."> -w /usr/share/wordlists/seclists/Discovery/DNS/ (дальше TAB) -mc 200
 
 gobuster vhost -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://thetoppers.htb
-ИЛИ
-gobuster vhost -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://10.129.114.142/
+Перед этим добавить ip и dns в /etc/hosts чтобы его узнавать
 
 
 sqlmap
