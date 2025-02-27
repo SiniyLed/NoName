@@ -37,8 +37,10 @@ python3 generate.py <ip> <port>
 
 nc -nvlp <port>
 
-ffuf -u <url> -H <"Host: FUZZ.www и т.д."> -w /usr/share/wordlists/seclists/Discovery/DNS/ (дальше TAB) -mc 200
 
+Поиск поддоменов:
+ffuf -u <url> -H <"Host: FUZZ.www и т.д."> -w /usr/share/wordlists/seclists/Discovery/DNS/ (дальше TAB) -mc 200
+gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u <url>
 
 
 sqlmap
